@@ -5,7 +5,8 @@
  SPDX-License-Identifier: BSD-2-Clause
 -->
 <system>
-    <protection_domain name="pmu_test">
+    <protection_domain name="pmu_test" pmu="true">
         <program_image path="pmu_test.elf" />
+        <pmu_counters counters="0,1,2"/>
     </protection_domain>
 </system>
